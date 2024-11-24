@@ -15437,7 +15437,7 @@ components:
         label_file_type:
           $ref: '#/components/schemas/LabelFileTypeEnum'
         label_url:
-          example: https://shippo-delivery.s3.amazonaws.com/70ae8117ee1749e393f249d5b77c45e0.pdf?Signature=vDw1ltcyGveVR1OQoUDdzC43BY8%3D&Expires=1437093830&AWSAccessKeyId=AKIAJTHP3LLFMYAWALIA
+          example: https://shippo-delivery.s3.amazonaws.com/70ae8117ee1749e393f249d5b77c45e0.pdf?Signature=vDw1ltcyGveVR1OQoUDdzC43BY8%3D&Expires=1437093830
           type: string
           description: |-
             A URL pointing directly to the label in the format you've set in your settings. 
@@ -15472,7 +15472,7 @@ components:
           type: string
           description: Object ID of the Parcel object that is being shipped.
         qr_code_url:
-          example: https://shippo-delivery.s3.amazonaws.com/96_qr_code.pdf?Signature=PEdWrp0mFWAGwJp7FW3b%2FeA2eyY%3D&Expires=1385930652&AWSAccessKeyId=AKIAJTHP3LLFMYAWALIA
+          example: https://shippo-delivery.s3.amazonaws.com/96_qr_code.pdf?Signature=PEdWrp0mFWAGwJp7FW3b%2FeA2eyY%3D&Expires=1385930652
           type: string
           description: |-
             A URL pointing directly to the QR code in PNG format. 
